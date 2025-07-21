@@ -1,0 +1,100 @@
+
+finetune2 = Color Tweak Pane
+============================
+(Algorithms: TBD)
+
+Template:
+finetune2=1, <fill: 0-1>, <highlight: 0-0.48>, <shadow: 0-0.48>, <autocolor: 0 / hex 4D>, <colorTemp: -1-1>
+
+
+Fill (@ Max):
+filters=finetune2=1,1.000000,0.000000,0.000000,00000000,0.000000;
+
+Fill (@ Half):
+filters=finetune2=1,0.514620,0.000000,0.000000,00000000,0.000000;
+
+
+Highlight (@ Max):
+filters=finetune2=1,0.000000,0.480000,0.000000,00000000,0.000000;
+
+Highlight (@ Half):
+filters=finetune2=1,0.000000,0.247018,0.000000,00000000,0.000000;
+
+
+Shadow  (@ Max):
+filters=finetune2=1,0.000000,0.000000,0.480000,00000000,0.000000;
+
+Shadow  (@ Half):
+filters=finetune2=1,0.000000,0.000000,0.238596,00000000,0.000000;
+
+
+Color Temp (to Right)
+finetune2=1,0.000000,0.000000,0.000000,00000000,1.000000;
+
+Color Temp (to Left)
+finetune2=1,0.000000,0.000000,0.000000,00000000,-1.000000;
+
+
+Auto-Color Picked:
+finetune2=1,0.000000,0.000000,0.000000,ffa4ffff,0.000000;
+
+
+
+Main Panel Fill
+===============
+(Algorithms: TBD)
+
+Fill (@ Max):
+filters=fill=1,1.000000;
+
+Fill (@ Half):
+filters=fill=1,0.523364;
+
+
+
+Rotate 90 Degrees
+=================
+
+Original (after 1 cycle):
+rotate=rotate(0)
+
+Rotate Left (once):
+rotate=rotate(3)
+
+Rotate Left (twice) / Flip Upside Down:
+rotate=rotate(2)
+
+Rotate Left (3x) / Rotate Right (1x):
+rotate=rotate(1)
+
+
+Tilt
+====
+
+Left Max:
+filters=tilt=1,-1.000000,0.000000;
+
+Right Max:
+filters=tilt=1,1.000000,0.000000;
+
+
+Crop
+====
+
+filters=fill=1,0.336449;crop64=1,1b502e26c807e353;
+...
+crop=rect64(1b502e26c807e353)
+
+
+Unsharp
+=======
+
+Default Strength:
+filters=unsharp2=1,0.600000;
+
+Minimum Strength:
+filters=unsharp2=1,0.000000;
+
+Maximum Strength:
+filters=unsharp2=1,3.000000;
+
