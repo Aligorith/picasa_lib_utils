@@ -202,18 +202,24 @@ class PicasaTiltFilter(PicasaFilterSettings):
 		super(PicasaTiltFilter, self).__init__(commandStr, params)
 		
 		# Unpack arg 2 to get the strengthening amount (a float)
-		# Range:   -1.0 <= v <= 1.0
+		# Range:   -1.0 <= t <= 1.0
 		assert len(self.params) == 3
 		
 		self.amountStr = self.params[1]
 		self.amount = float(self.amountStr)
 		
-		# TODO: Figure out how to map "amount" to rotation in degrees / radians
+		# The angle-mapping was found by measuring the rotation of
+		# a reference horizontal line feature when the Tilt filter
+		# was applied to the reference image in Picasa
+		#
+		# CAUTION: The direction of rotation may currently still be incorrect
+		self.angle_deg = self.amount * 11.5
 	
 	# ! Override: PicasaFilterSettings.to_json()
 	def to_json(self):
 		result = super(PicasaTiltFilter, self).to_json()
 		result['amount'] = self.amountStr
+		result['angle_deg'] = self.angle_deg
 		return result
 
 # =================================================
