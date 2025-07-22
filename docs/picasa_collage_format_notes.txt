@@ -1,0 +1,33 @@
+Picasa Collages
+===============
+
+XML format, pretty self explanatory
+
+<?xml version="2.0" encoding="utf-8" ?>
+<collage version="2" format="16:9" orientation="landscape" theme="picturegrid" shadows="0" captions="1" albumUID="a6772b7721d19eb7f9c967f8732d9c65">
+ <albumTitle>The Album Name</albumTitle>
+ <albumDate>March 2025</albumDate>
+ <background type="solid" color="FFFFFFFF"/>
+ <spacing value="0.000000"/>
+ <node x="0.000000" y="0.000000" w="0.536387" h="0.487821" theta="0.000000" scale="549.000000">
+  <theme>noborder</theme>
+  <src>[D]\path\to\album\filename-001.jpg</src>
+  <uid>7dfe0d4aec3eb7fc811c93918af5228b</uid>
+ </node>
+ <node x="0.414122" y="0.487821" w="0.585878" h="0.512179" theta="0.000000" scale="600.000000">
+  <theme>noborder</theme>
+  <src>[D]\path\to\album\filename-002.jpg</src>
+  <uid>39d301c2a6d031a17ef3e7467eee619b</uid>
+ </node>
+ <node x="0.000000" y="0.487821" w="0.414122" h="0.512179" theta="0.000000" scale="424.000000">
+  <theme>noborder</theme>
+  <src>[D]\path\to\album\filename-003.jpg</src>
+  <uid>94a550dc82f9067169c569def23cfdc1</uid>
+ </node>
+ <node x="0.536387" y="0.000000" w="0.463613" h="0.487821" theta="0.000000" scale="475.000000">
+  <theme>noborder</theme>
+  <src>[D]\path\to\album\filename-004.jpg</src>
+  <uid>4dde7f1cec36c8624f57310fa3e6ffbb</uid>
+ </node>
+</collage>
+
