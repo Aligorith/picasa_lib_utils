@@ -1,0 +1,104 @@
+Roadmap
+=======
+
+# Picasa.ini Support
+
+## Image Metadata
+
+* [x] Starring Support
+
+* [ ] Captions Support
+
+
+## Basic Filter Stack / Image-Level Adjustments:
+
+* [x] Crop
+** [x] Parsing of .ini parameters
+** [x] Interpretation/Calibration of .ini values
+
+* [x] Tilt
+** [x] Parsing of .ini parameters
+** [x] Interpretation/Calibration of .ini values
+
+* [x] Rotate
+** [x] Parsing of .ini parameters
+** [x] Interpretation/Calibration of .ini values
+
+* [ ] Fill Light (Main Panel)
+** [x] Parsing of .ini parameters
+** [ ] Interpretation/Calibration of .ini values
+
+* [ ] Finetune2 Settings  (Tab 2)
+** [x] Parsing of .ini parameters
+** [ ] Fill Light Control
+** [ ] Highlights Control
+** [ ] Shadows Control
+** [x] Auto-Tint Control  (Storage, Not Interactive Tool)
+** [x] Color Temperature Control
+
+* [ ] Unsharp2 ("Sharpen" tool)
+** [x] Parsing of .ini parameters
+** [ ] Interpretation/Calibration of .ini values  (i.e. is it just strength? How is size done?)
+
+* TODO: How to handle repeat applications of these filters?
+
+
+## Somewhat Often Used Filters
+
+* [ ] Saturation
+** [ ] Parsing of .ini parameters
+** [ ] Interpretation/Calibration of .ini values
+
+* [ ] Graduated Tint
+** [ ] Parsing of .ini parameters
+** [ ] Interpretation/Calibration of .ini values
+
+* [ ] Vignette
+** [ ] Parsing of .ini parameters
+** [ ] Interpretation/Calibration of .ini values
+
+
+## Additional Lesser-Used Filters
+
+* [ ] Glow
+** [ ] Parsing of .ini parameters
+** [ ] Interpretation/Calibration of .ini values
+
+* [ ] Tint
+** [ ] Parsing of .ini parameters
+** [ ] Interpretation/Calibration of .ini values
+
+* [ ] Soft Focus
+** [ ] Parsing of .ini parameters
+** [ ] Interpretation/Calibration of .ini values
+
+* [ ] Filtered Black and White
+** [ ] Parsing of .ini parameters
+** [ ] Interpretation/Calibration of .ini values
+
+
+
+## Monochrome Single Application Filters
+
+* [ ] Black & White
+
+* [ ] Sepia
+** [ ] Color tone used
+
+* [ ] Warmify
+** NOTE: This one I rarely use, but may have applied once or twice
+
+
+# Other Big-Ticket Functionality I Use
+
+* [x] Collage Format
+
+* [ ] Database thumbnails
+
+
+# Other Big Ticket Functionality Others Might Want
+
+* [ ] Face Tagging
+
+* [ ] Geotagging
+
