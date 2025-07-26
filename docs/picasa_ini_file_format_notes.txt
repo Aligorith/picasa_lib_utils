@@ -30,9 +30,11 @@ filters=finetune2=1,0.000000,0.000000,0.238596,00000000,0.000000;
 
 Color Temp (to Right)
 finetune2=1,0.000000,0.000000,0.000000,00000000,1.000000;
+                                                ^^^^^^^^
 
 Color Temp (to Left)
 finetune2=1,0.000000,0.000000,0.000000,00000000,-1.000000;
+                                                ^^^^^^^^^
 
 
 Auto-Color Picked:
@@ -76,6 +78,17 @@ filters=tilt=1,-1.000000,0.000000;
 
 Right Max:
 filters=tilt=1,1.000000,0.000000;
+
+
+Using the "tilt_calibration-v2" images and Krita's "Measure" tool
+(see "calibration_ref/tilt-[LeftMax|RightMax].png" Picasa screenshots),
+most of the measured angles came back as either "11.4" or "11.7" degrees
+
+Conclusion:
+It is currently believed the ratation-amount value is 11.5 degrees.
+
+(It had been suspect that it might have been intended to be 12 degrees,
+ though 11 degrees is also a less likely alternative)
 
 
 Crop
